@@ -1,0 +1,110 @@
+/* Deo ispod navigacije */
+.jumbotron{
+    position: relative;
+}
+
+.right-inner{
+    position: absolute;
+    top: 0;
+    right: 6%;
+    text-align: center;
+    width: 23%;
+    margin-top: 30px;
+}
+
+.btnOrder{
+    width: 24%;
+}
+
+.right-inner h3{
+    color: #000;
+    font-weight: bold;
+}
+
+.lead{
+    width: 53%;
+}
+
+.right-inner-lead{
+    margin-top: 20px;
+    margin-bottom: 0 !important;
+}
+
+.gratis-right-inner-second{
+    margin: 0 !important;
+}
+
+/* Responsive deo */
+@media screen and (min-width: 1530px){
+    .prod-image-wrapper img{
+        position: absolute;
+        left: -32%;
+        bottom: -216px;
+        width: 200%;
+    }
+}
+
+@media screen and (min-width: 1336px) {
+    .prod-image-wrapper img{
+        position: absolute;
+        left: -32%;
+        bottom: -216px;
+        width: 170%;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .prod-image-wrapper img{
+        position: absolute;
+        left: -32%;
+        bottom: -216px;
+        width: 155%;
+    }
+}
+
+@media screen and (max-width: 1199px){
+    .image-section h1 {
+        font-size: 2.2em;
+        width: 66%;
+    }
+
+    .image-section p {   
+        font-size: 1.1em;
+    }
+
+    .gratis-right-inner-second{
+        font-size: 1.4em !important;
+    }
+
+    .right-inner{
+        top: 10%;
+    }
+}
+
+@media screen and (max-width: 995px){
+    .image-section_features p{
+        font-size: 1.5em !important;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .btnOrder{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .right-inner{
+        right: 10%;
+    }
+
+    .btnOrder{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 575px){
+    .right-inner{
+        top: 0;
+    }
+}
