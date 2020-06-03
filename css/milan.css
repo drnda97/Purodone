@@ -1,0 +1,36 @@
+/* header css */
+i.fa-phone{
+  font-size: 1.7em;
+  color: red;
+  position: absolute;
+  top: 3px;
+}
+a.call{
+  color: red !important;
+  margin-left: 6%;
+}
+span.tel{
+  display: block;
+  color: #83b441;
+  font-weight: bold;
+  margin-left: 8%;
+  margin-top: -5px;
+}
+img.serbian-flag{
+  position: absolute;
+}
+span.offer{
+  margin-left: 15%;
+}
+span.offer-1{
+  font-weight: bold;
+}
+span.offer-2{
+  color: lightblue;
+}
+/* homepage css */
+section.one div.container{
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+}
