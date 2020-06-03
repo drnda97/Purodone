@@ -1,0 +1,110 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.pre-navbar {
+  padding: 20px 0;
+}
+.covid-info {
+  background-color: #ebebeb;
+  padding: 10px 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.covid-info i, .covid-info b {
+  color: #2a5fa3;
+}
+.navbar {
+  background-color: #f89a1c;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  padding: 0!important;
+}
+.navbar-nav {
+  width: 100%;
+  justify-content: space-between;
+}
+.navbar-nav .nav-item {
+  padding: 0.5em 0;
+}
+.navbar-nav .nav-item:last-child {
+  background-color: #418f09;
+}
+.navbar-nav .nav-item:last-child .nav-link{
+  color: rgba(255,255,255,1)!important;
+}
+.image-section {
+  background-image: url('../images/bgimg.jpg');
+  background-size: cover;
+  color: #fff;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+.image-section h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900;
+  font-size: 3em;
+  width: 50%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px#333;
+}
+.image-section p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900;
+  font-size: 1.4em;
+  text-shadow: 1px 1px 2px#333;
+}
+.btn-primary {
+  background-color: #418f09;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 10px 20px;
+  border-color: #418f09;
+  border-radius: 25px;
+}
+.btn-primary:hover, .btn-primary:focus {
+  background-color: #418f09;
+  border-color: #f89a1c;
+}
+.image-section_features {
+  background-color: #f89a1c;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.2em;
+  margin-bottom: 150px;
+}
+.image-section_features div {
+  text-align: center;
+}
+.image-section_features i {
+  font-size: 2em;
+}
+.prod-image {
+  width: 100%;
+}
+.prod-image-wrapper {
+  position: relative;
+}
+.prod-image-wrapper img {
+  position: relative;
+  width: 100%;
+}
+
+@media screen and (min-width: 996px) {
+  .image-section_features {
+    flex-direction: row;
+  }
+  .prod-image {
+    width: 50%;
+  }
+  .prod-image-wrapper img {
+    position: absolute;
+    left: -50px;
+    top: -100px;
+    width: 150%;
+  }
+}
