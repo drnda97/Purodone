@@ -1,5 +1,4 @@
 /* global css */
-
 p.strong{
   font-weight: bold;
 }
@@ -43,6 +42,16 @@ span.offer-1{
 }
 span.offer-2{
   color: lightblue;
+}
+/* navbar css */
+nav.navbar {
+  background: #83b43f;
+}
+ul.navbar-nav li a{
+  color: #fff !important;
+}
+.navbar-nav .nav-item:last-child{
+  background: #000 !important;
 }
 /* homepage css */
 section.one div.container{
@@ -93,6 +102,14 @@ section.three{
   text-align: center;
   margin: 5% auto;
   margin-bottom: 10%;
+}
+section.three h1{
+  font-weight: bold;
+}
+section.three p{
+  font-style: italic;
+  margin: 2% auto;
+  margin-bottom: 5%;
 }
 /* section four */
 section.four{
