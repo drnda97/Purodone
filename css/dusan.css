@@ -34,6 +34,47 @@
     margin: 0 !important;
 }
 
+/* section one */
+
+section.one h1{
+    font-weight: bold;
+}
+
+/* Section three */
+
+.image-ingredients{
+    width: 100%;
+}
+
+/* Section four */
+
+section.four h1{
+    font-weight: bold;
+    text-align: center;
+    width: 42%;
+    padding-top: 5%;
+}
+
+/* Section five */
+
+section.five .second{
+    padding-right: 15%;
+    padding-left: 15%;
+    padding-top: 5%;
+}
+
+/* Section six */
+
+section.six .title{
+    font-weight: bold;
+    padding-top: 10%;
+    padding-bottom: 6%;
+}
+
+section.six .text{
+    text-align: center;
+}
+
 /* Ponuda purodona */
 
 .our-offer{
@@ -79,7 +120,8 @@
 }
 
 .accordion-right-col{
-    width: 57%;
+    max-width: 60%;
+    flex: 0 0 66.666667%; 
     margin-left: auto;
 }
 
@@ -91,15 +133,17 @@
     margin-bottom: 5px !important;
 }
 
-/* Problemi sa parazitima */
+/* Section nine */
 
 .first-row{
+    margin-left: auto;
+    width: 95%;
     margin-bottom: 10%;
 }
 
 .second-row{
-    width: 75%;
-    margin: 0 auto !important;
+    width: 85%;
+    margin-left: auto;
 }
 
 .nine p{
@@ -107,6 +151,7 @@
     text-align: center;
     margin-top: 7%;
 }
+
 
 /* Responsive deo */
 @media screen and (min-width: 1530px){
@@ -153,17 +198,86 @@
     .right-inner{
         top: 10%;
     }
+
+    section.four h1{
+        width: 100%;
+        padding-bottom: 5%;
+    }
+
+    section.six h1{
+        width: 85%;
+    }
+
+    .accordion-right-col{
+        max-width: 50%;
+    }
 }
 
 @media screen and (max-width: 995px){
     .image-section_features p{
         font-size: 1.5em !important;
     }
+
+    section.two div.container div.row div.first h4{
+        font-size: 1.3rem !important;
+    }
 }
 
 @media screen and (max-width: 991px){
     .btnOrder{
         width: 40%;
+    }
+
+    section.four div.container div.row div.second img{
+        padding-top: 10%;
+    }
+
+    section.four div.container div.row div.first p{
+        margin-bottom: 5%;
+    }
+
+    .primary-heading{
+        font-size: 2rem !important;
+    }
+
+    section.four div.container div.row div.first p.strong{
+        font-size: 1.1em;
+    }
+
+    section.four div.container div.row div.first h5{
+        font-size: 1rem;s
+    }
+
+    .btnPoruci{
+        font-size: 1.3rem !important;
+    }
+
+    .image-sale-responsive-md{
+        width: 50%;
+        margin: 0 auto;
+        padding-bottom: 0;
+    }
+
+    section.seven p.our-offer{
+        width: 50%;
+    }
+
+    .left-col{
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .accordion-right-col{
+        max-width: 100%;
+        flex: 0 0 100%; 
+        margin-left: 0;
+        padding-top: 5%;
+    }
+
+    .first-row{
+        margin-left: auto;
+        width: 85%;
+        margin-bottom: 0;
     }
 }
 
@@ -175,10 +289,42 @@
     .btnOrder{
         width: 100%;
     }
+
+    section.five .second{
+        padding-right: 8%;
+        padding-left: 8%;
+    }
+
+    .left-col{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .first-row{
+        width: 70%;
+    }
+
+    .second-row{
+        width: 70%;
+    }
 }
 
 @media screen and (max-width: 575px){
     .right-inner{
         top: 0;
+    }
+
+    section.five .third, section.five .fourth{
+        max-width: 100% !important;
+        flex: 0 0 100%;
+    }
+
+    section.six .profesional-card{
+        max-width: 100% !important;
+        flex: 0 0 100%;
+    }
+
+    .accordion-right-col{
+        margin-left: 10px;
     }
 }
