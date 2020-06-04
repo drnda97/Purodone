@@ -159,6 +159,28 @@ section.five div.fourth{
   width: 50%;
   background: #83b441;
 }
+section.five div.fourth div.testimonial{
+  margin-bottom: 2%;
+  clear: both;
+  max-height: 190px;
+}
+section.five div.fourth div.testimonial div.testimonials-details{
+  width: 80%;
+  float: right;
+  text-align: left;
+  margin-top: 5%;
+  color: #fff;
+}
+section.five div.fourth div.testimonial div.testimonials-details > p{
+  margin-bottom: 0;
+}
+section.five div.fourth div.testimonial div.testimonials-details > span{
+  font-size: 1.3em;
+}
+section.five div.fourth div.testimonial img{
+  width: 10%;
+  margin: 5%;
+}
 /* section six */
 section.six{
   background: #ebebeb;
