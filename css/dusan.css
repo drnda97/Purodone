@@ -34,6 +34,13 @@
     margin: 0 !important;
 }
 
+.prod-image-wrapper img{
+    position: absolute;
+    left: -32%;
+    bottom: -216px;
+    width: 220%;
+}
+
 /* section one */
 
 section.one h1{
@@ -73,7 +80,7 @@ section.six .text{
     text-align: center;
 }
 
-/* Ponuda purodona */
+/* section seven */
 
 .our-offer{
     font-weight: bold;
@@ -106,7 +113,7 @@ section.six .text{
     padding-bottom: 10px;
 }
 
-/* Najčešća pitanja */
+/* section eight */
 
 .main-heading{
     width: 100%;
@@ -131,7 +138,7 @@ section.six .text{
     margin-bottom: 5px !important;
 }
 
-/* Section nine */
+/* section nine */
 
 .first-row{
     margin-left: auto;
@@ -150,8 +157,71 @@ section.six .text{
     margin-top: 7%;
 }
 
+/* section ten */
+
+section.ten{
+    background-image: url('images/black-diagonal-line.png');
+    
+}
+
+section.ten .last-head{
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-transform: uppercase;
+}
+
+.banner-space{
+    padding: 2rem 1rem;
+}
+
+.single-paragraf{
+    margin-bottom: 0.5rem !important;
+}
+
+.form-banner{
+    border: 1px solid #83b441;
+    border-radius: .25rem;
+    background-color: #83b441;
+    padding: 1rem;
+}
+
+.form-banner  h1{
+    font-weight: bold;
+    margin-bottom: 0 !important;
+    color: #fff;
+}
+
+.form-banner h3{
+    font-weight: bold;
+}
+
+.shipping-text{
+    text-align: right;
+    margin-bottom: 0 !important;
+    text-transform: uppercase;
+}
+
+.btnFormLast{
+    width: 100%;
+    margin-top: 5%;
+    border-radius: 20px;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.image-holder{
+    position: relative;
+}
+
+.banner-image-right{
+    position: absolute;
+    right: 7%;
+    bottom: -12%; 
+}
 
 /* Responsive deo */
+
 @media screen and (min-width: 1530px){
     .prod-image-wrapper img{
         position: absolute;
@@ -208,6 +278,10 @@ section.six .text{
 
     .accordion-right-col{
         max-width: 50%;
+    }
+
+    .banner-image-right{
+        right: -7%;
     }
 }
 
