@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 /* global css */
+span.strong,
 p.strong{
   font-weight: bold;
 }
@@ -71,6 +73,10 @@ section.two{
 section.two div.container div.row{
   display: flex;
   flex-direction: row;
+}
+section.two div.container div.row div.second p{
+  text-align: justify;
+  width: 100%;
 }
 section.two div.container div.row div.second,
 section.two div.container div.row div.first{
@@ -150,6 +156,12 @@ section.five div.row h1{
   margin: 5% auto;
   font-weight: bold;
 }
+section.five div.row div.second > p.strong{
+  font-size: 28px;
+  width: 80%;
+  margin: 0px auto;
+  margin-bottom: 10%;
+}
 section.five div.third{
   width: 50%;
   margin-top: 5%;
@@ -174,8 +186,9 @@ section.five div.fourth div.testimonial div.testimonials-details{
 section.five div.fourth div.testimonial div.testimonials-details > p{
   margin-bottom: 0;
 }
-section.five div.fourth div.testimonial div.testimonials-details > span{
-  font-size: 1.3em;
+section.five div.fourth div.testimonial div.testimonials-details > img{
+  margin: 0 !important;
+  width: 20% !important;
 }
 section.five div.fourth div.testimonial img{
   width: 10%;
@@ -233,4 +246,72 @@ section.seven p.our-offer{
   z-index: 999;
   position: relative;
   color: #fff;
+}
+/* section ten */
+section.ten{
+  position: relative;
+  background-color: #ebebeb;
+}
+section.ten div.image-holder,
+section.ten div.form-wrapper,
+section.ten div.first-div-absolute{
+  z-index: 999;
+}
+section.ten div.first-div-absolute p.white{
+  font-size: 29px;
+  font-family: 'Lobster', cursive;
+  color: #fff;
+  padding-top: 50px;
+}
+section.ten div.image-holder h1{
+  position: absolute;
+  color: #fff;
+  right: 0px;
+  bottom: 60px;
+  font-size: 80px;
+  font-weight: bold;
+}
+section.ten img.banner-image-absolute{
+  position: absolute;
+  bottom: 15px;
+  width: 104%;
+  left: -2%;
+  z-index: 1;
+}
+
+/* responsive */
+@media screen and (max-width: 768px) {
+  div.image-section_features div.prod-image div.prod-image-wrapper img{
+    width: 80% !important;
+    left: 10% !important;
+  }
+  /* section one */
+  section.one h1{
+    padding-top: 10%;
+  }
+  /* section two */
+  section.two img.big-image{
+    width: 95% !important;
+    margin-left: 0 !important;
+  }
+  /* section five */
+   section.five div.first img{
+    width: 95% !important;
+  }
+  /* section six*/
+  section.six div.content div.row div.profesional-card{
+    margin: 3% auto;
+  }
+  /* section eight */
+  section.eight div.accordion-right-col div#accordion div.card{
+    width: 95%;
+  }
+  /* section ten */
+  section.ten div.row div{
+    text-align: center;
+  }
+  section.ten div.row div.image-holder img{
+    position: relative;
+    right: 0% !important;
+  }
 }

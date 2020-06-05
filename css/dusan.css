@@ -126,7 +126,7 @@ section.six .text{
 
 .accordion-right-col{
     max-width: 60%;
-    flex: 0 0 66.666667%; 
+    flex: 0 0 66.666667%;
     margin-left: auto;
 }
 
@@ -161,7 +161,7 @@ section.six .text{
 
 section.ten{
     background-image: url('images/black-diagonal-line.png');
-    
+
 }
 
 section.ten .last-head{
@@ -217,7 +217,7 @@ section.ten .last-head{
 .banner-image-right{
     position: absolute;
     right: 7%;
-    bottom: -12%; 
+    bottom: -12%;
 }
 
 /* Responsive deo */
@@ -255,7 +255,7 @@ section.ten .last-head{
         width: 66%;
     }
 
-    .image-section p {   
+    .image-section p {
         font-size: 1.1em;
     }
 
@@ -302,6 +302,7 @@ section.ten .last-head{
 
     section.four div.container div.row div.second img{
         padding-top: 10%;
+        width: 95%;
     }
 
     section.four div.container div.row div.first p{
@@ -341,7 +342,7 @@ section.ten .last-head{
 
     .accordion-right-col{
         max-width: 100%;
-        flex: 0 0 100%; 
+        flex: 0 0 100%;
         margin-left: 0;
         padding-top: 5%;
     }
